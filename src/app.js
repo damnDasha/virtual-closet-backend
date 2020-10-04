@@ -14,7 +14,7 @@ app.use(helmet());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Hello, world!");
+  res.send("I'm serving, I am a server!");
 });
 
 app.use(function errorHandler(error, req, res, next) {
