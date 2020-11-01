@@ -20,7 +20,7 @@ eventsRouter
         if (!event)
           return res.status(404).json({
             error: {
-              message: "event does not exist...time is not linear",
+              message: "event does not exist...get a life loser",
             },
           });
         else {
